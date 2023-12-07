@@ -1,10 +1,10 @@
-#include "header-files\main.h"
-#include "header-files\get_string_size.h"
-#include "header-files\reallocate_size.h"
+#include "../dynamic-array/header-files/main.h"
+#include "../dynamic-array/header-files/get_string_size.h"
+#include "../dynamic-array/header-files/reallocate_size.h"
 
 int main(void)
-{
-  char *string = calloc(ARRAY_DEFAULT_SIZE, sizeof(char));
+{ 
+  char *string = calloc(ARRAY_DEFAULT_SIZE, sizeof(char)); // char string[30] 
 
   if(string == NULL)
   {

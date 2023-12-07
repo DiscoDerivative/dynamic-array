@@ -1,4 +1,4 @@
-#include "header-files\get_string_size.h"
+#include "../dynamic-array/header-files/get_string_size.h"
 
 int getStringSize(char *string) {
   int size = DEFAULT_INITIALIZE_SIZE;

@@ -1,4 +1,4 @@
-#include "header-files\reallocate_size.h"
+#include "../dynamic-array/header-files/reallocate_size.h"
 
 char* reallocateSize(char *string, int size)
 {
